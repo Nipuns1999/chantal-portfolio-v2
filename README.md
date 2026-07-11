@@ -20,6 +20,16 @@ npm run build
 npm run preview
 ```
 
+## Deploy (GitHub Pages)
+
+Publishes the production build to the `gh-pages` branch. Custom domain: `paintingsbychantal.com`.
+
+```bash
+npm run deploy
+```
+
+Same pattern as the previous site: build → push `dist/` to `gh-pages` (includes `CNAME` and a `404.html` SPA fallback for client routes).
+
 ## Routes
 
 | Path | Page |
